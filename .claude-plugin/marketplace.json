@@ -1,6 +1,6 @@
 {
   "name": "batchhunt",
-  "owner": { "name": "BatchHunt contributors" },
+  "owner": { "name": "Oleksii Slusar", "email": "oleksi.slusarishere@gmail.com" },
   "plugins": [
     {
       "name": "batchhunt",
