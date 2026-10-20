@@ -1,0 +1,11 @@
+{
+  "name": "batchhunt",
+  "owner": { "name": "BatchHunt contributors" },
+  "plugins": [
+    {
+      "name": "batchhunt",
+      "source": "./",
+      "description": "Honest job-hunting agent: onboards you, finds jobs that match your rules, tailors your CV, and applies in batches you approve."
+    }
+  ]
+}

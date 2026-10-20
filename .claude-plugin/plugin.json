@@ -1,0 +1,8 @@
+{
+  "name": "batchhunt",
+  "version": "0.1.0",
+  "description": "Honest job-hunting agent: onboards you, finds jobs that match your rules, tailors your CV, and applies in batches you approve.",
+  "author": { "name": "BatchHunt contributors" },
+  "license": "MIT",
+  "keywords": ["jobs", "job-search", "cv", "resume", "applications", "career"]
+}
