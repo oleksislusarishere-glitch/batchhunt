@@ -1,0 +1,27 @@
+{
+  "_comment": "Built during onboarding from the candidate's target/skip roles and locations. Regexes are case-insensitive.",
+  "include_titles": "(brand designer|graphic designer|visual designer|marketing designer|motion designer|art director|creative director|creative lead|design lead)",
+  "exclude_titles": "(junior|intern|trainee|ux|ui/ux|product designer|engineer|developer|copywriter|sales|recruit)",
+  "jobspy": {
+    "terms": ["brand designer", "motion designer", "art director"],
+    "searches": [
+      {"site": "linkedin", "location": "Spain", "remote": false},
+      {"site": "indeed", "location": "Spain", "country_indeed": "spain", "remote": false},
+      {"site": "linkedin", "location": "European Economic Area", "remote": true}
+    ],
+    "days": 14
+  },
+  "workable": {"locations": ["Spain", "Europe"], "remote_only_for": ["Europe"]},
+  "remote_geo_ok": ["worldwide", "anywhere", "europe", "emea", "eu", "spain"],
+  "sources": {
+    "himalayas": true,
+    "weworkremotely": true,
+    "jobicy": true,
+    "dribbble": true,
+    "realworkfromanywhere": true,
+    "remotive": false,
+    "remoteok": false,
+    "dou_ua": false,
+    "getro_boards": ["careers.atomico.com", "jobs.accel.com", "talent.seedcamp.com", "jobs.pointnine.com"]
+  }
+}

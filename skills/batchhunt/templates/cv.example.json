@@ -1,0 +1,66 @@
+{
+  "_comment": "Fictional example. Replace with facts from the real CV only. Bullet ids are referenced by variants.",
+  "file_name": "Jane_Doe_CV.pdf",
+  "candidate": {
+    "name": "Jane Doe",
+    "location": "Valencia, Spain · Remote",
+    "email": "jane.doe@example.com",
+    "phone": "+34 600 000 000",
+    "links": [
+      {"label": "Portfolio", "url": "https://janedoe.design"},
+      {"label": "LinkedIn", "url": "https://linkedin.com/in/janedoe"}
+    ]
+  },
+  "experience": [
+    {
+      "company": "Acme Pay",
+      "role": "Senior Brand Designer",
+      "context": "Consumer fintech",
+      "location": "Remote",
+      "dates": "2022 – Present",
+      "bullets": {
+        "own": "Own the brand end to end: identity, guidelines and launch creative across social, paid, web and email.",
+        "ds": "Rebuilt the identity into a Figma design system reused across 5 product launches.",
+        "ai": "Introduced an AI image workflow that cut asset production time by about half.",
+        "lead": "Mentor two junior designers through weekly design reviews."
+      }
+    },
+    {
+      "company": "Studio North",
+      "role": "Motion Designer",
+      "context": "Branding agency",
+      "location": "Madrid, Spain",
+      "dates": "2019 – 2022",
+      "bullets": {
+        "motion": "Animated brand systems and launch films for 20+ clients in After Effects and Cinema 4D.",
+        "vol": "Delivered 60+ social video assets a month on fast turnarounds."
+      }
+    }
+  ],
+  "projects": [
+    {"name": "Side project", "url": "https://example.com", "description": "One line on what it is and the real result."}
+  ],
+  "education": [
+    {"title": "BA Graphic Design", "org": "University of Valencia", "year": "2019"}
+  ],
+  "skills": [
+    {"category": "Design", "items": "Brand identity, design systems, social and paid creative, typography"},
+    {"category": "Motion", "items": "Motion graphics, 2D/3D animation, video editing"},
+    {"category": "Tools", "items": "Figma, After Effects, Cinema 4D, Photoshop, Illustrator, Midjourney"}
+  ],
+  "languages": "English (C1), Spanish (native)",
+  "variants": {
+    "brand": {
+      "title": "Senior Brand Designer | Identity, Systems & Campaigns",
+      "summary": "Brand designer with 6+ years in fintech and agency work who owns identity, systems and launch creative end to end.",
+      "competencies": ["Brand identity", "Design systems", "Campaign creative", "Motion basics"],
+      "order": {"Acme Pay": ["own", "ds", "ai", "lead"], "Studio North": ["vol", "motion"]}
+    },
+    "motion": {
+      "title": "Motion Designer | Brand & Performance Video",
+      "summary": "Motion designer with 6+ years animating brand systems and high-volume social video.",
+      "competencies": ["After Effects", "Cinema 4D", "Brand motion", "Performance video"],
+      "order": {"Studio North": ["motion", "vol"], "Acme Pay": ["ai", "own", "ds"]}
+    }
+  }
+}
