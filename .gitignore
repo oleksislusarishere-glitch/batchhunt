@@ -1,0 +1,13 @@
+# personal data never belongs in the repo
+batchhunt-data/
+profile.md
+cv.json
+search.json
+tracker.md
+TODO.md
+apps/
+scans/
+*.pdf
+.venv/
+__pycache__/
+.DS_Store
